@@ -4,7 +4,6 @@ package org.ham.Calculator_Zarplatni;
 import static org.junit.Assert.*;
 
 
-
 public class Test1 {
 
 	@org.junit.Test
