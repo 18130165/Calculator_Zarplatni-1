@@ -3,11 +3,10 @@ package org.ham.Calculator_Zarplatni;
 
 import static org.junit.Assert.*;
 
-import org.junit.Test;
 
 public class Test2 {
-
-	@Test
+	@org.junit.Test
+	
 	public void test2() throws Exception {
 		ButtonEventListener prw = new ButtonEventListener();
 		CalculGUI RTV = new CalculGUI(); //создание объекта класса CalculGUI
