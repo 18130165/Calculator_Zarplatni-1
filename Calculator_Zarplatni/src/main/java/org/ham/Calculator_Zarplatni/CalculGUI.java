@@ -11,6 +11,7 @@ public class CalculGUI extends JFrame {
 	public static JTextField input3 = new JTextField("",4); //объект тектовое поле
 	public static JTextField input4 = new JTextField("",4); //объект тектовое поле
 	public static JTextField input5 = new JTextField("",4); //объект тектовое поле
+
 	
 	private JLabel label1 = new JLabel("Количество отработанных дней:"); //объект текстовая строка
 	private JLabel label2 = new JLabel("Оклад, руб.:"); //объект текстовая строка
@@ -28,6 +29,7 @@ public class CalculGUI extends JFrame {
 		Container container = this.getContentPane();
 		container.setLayout(new GridLayout(3,2,2,2));
 		input5.disable(); //
+
 		
 		//Добавление элементов окна на панель
 		container.add(label1);
@@ -44,6 +46,8 @@ public class CalculGUI extends JFrame {
 		
 		container.add(label5);
 		container.add(input5);
+
+		
 		
 		ButtonEventListener action = new ButtonEventListener();
 		button.addActionListener(action); //присвоение отработчика кнопке

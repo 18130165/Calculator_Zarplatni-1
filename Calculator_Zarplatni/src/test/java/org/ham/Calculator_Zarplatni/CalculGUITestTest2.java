@@ -1,13 +1,10 @@
-package org.ham.Calculator_Zarplatni;//указываем, в каком пакете находится класс
+package org.ham.Calculator_Zarplatni;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
-import org.ham.Calculator_Zarplatni.ButtonEventListener;
-import org.ham.Calculator_Zarplatni.CalculGUI;
+import org.junit.Test;
 
-import org.junit.*;
-
-class CalculGUITestTest2 {
+public class CalculGUITestTest2 {
 
 	@Test
 	public void testGUI2() throws Exception {
@@ -25,4 +22,3 @@ class CalculGUITestTest2 {
 	}
 
 }
-
