@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class Test2 {
 	@org.junit.Test
 	
-	public void test2() throws Exception {
+	public void test2(){
 		ButtonEventListener prw = new ButtonEventListener();
 		CalculGUI RTV = new CalculGUI(); //создание объекта класса CalculGUI
 		RTV.setVisible(true);
