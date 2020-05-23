@@ -11,7 +11,6 @@ public class Test1 {
 	public void test1(){
 		ButtonEventListener prw = new ButtonEventListener();
 		CalculGUI RTV = new CalculGUI(); //создание объекта класса CalculGUI
-		RTV.setVisible(true);
 		CalculGUI.input1.setText("20"); //задаем значение первого поля 
 		CalculGUI.input2.setText("20000"); //задаем значение второго поля 
 		CalculGUI.input3.setText("15000"); //задаем значение третьего поля 
