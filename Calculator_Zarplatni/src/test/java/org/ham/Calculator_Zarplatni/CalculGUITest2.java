@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class CalculGUITestTest2 {
+public class CalculGUITest2 {
 
 	@Test
 	public void testGUI2() throws Exception {
