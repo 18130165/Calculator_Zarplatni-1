@@ -1,6 +1,5 @@
 package org.ham.Calculator_Zarplatni;//указываем, в каком пакете находится класс
 
-
 import static org.junit.Assert.assertEquals;
 
 import org.ham.Calculator_Zarplatni.ButtonEventListener;
