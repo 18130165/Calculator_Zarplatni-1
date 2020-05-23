@@ -1,3 +1,4 @@
+  
 package org.ham.Calculator_Zarplatni;
 
 import static org.junit.Assert.*;
