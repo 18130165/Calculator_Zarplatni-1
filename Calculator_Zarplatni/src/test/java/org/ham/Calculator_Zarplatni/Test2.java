@@ -7,7 +7,7 @@ import org.junit.Test;
 public class Test2 {
 
 	@Test
-	public void testGUI2() throws Exception {
+	public void testGUI() throws Exception {
 		ButtonEventListener prw = new ButtonEventListener();
 		CalculGUI RTV = new CalculGUI(); //создание объекта класса CalculGUI
 		RTV.setVisible(true);
